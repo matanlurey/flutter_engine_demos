@@ -32,7 +32,7 @@ final class MainApp extends StatefulWidget {
 
 final class _MainAppState extends State<MainApp> {
   int? _textureId;
-  double _height = 0;
+  double _height = 500;
 
   @override
   void initState() {
@@ -106,6 +106,7 @@ final class _Texture extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('>>> textureId: $_textureId, height: $_surfaceHeight');
     return Center(
       child: SizedBox(
         width: 1080,

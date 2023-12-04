@@ -106,7 +106,6 @@ final class _Texture extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print('>>> textureId: $_textureId, height: $_surfaceHeight');
     return Center(
       child: SizedBox(
         width: 1080,
